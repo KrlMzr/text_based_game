@@ -5,7 +5,7 @@ namespace game {
     class Enemy {
         private:
             int health { 10 };
-            int damage { 1 };
+            int damage { 30 };
             std::string name {"Placeholder Enemy"};
             std::string description {"Placeholder enemy description"};
 
