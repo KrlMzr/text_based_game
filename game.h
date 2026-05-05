@@ -1,4 +1,4 @@
-# pragma once
+#pragma once
 #include "level.h"
 #include "player.h"
 
