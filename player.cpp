@@ -1,12 +1,7 @@
 #include "player.h"
 
 namespace game {
+    Player::Player() : Entity(100, 5) {}
 
-    int Player::get_health() const { return health; }
-
-    int Player::get_damage() const { return damage; }
-
-    void Player::take_damage(int damage) { health -= damage; }
-
-    bool Player::is_alive() const { return health > 0; }
+    std::string Player::get_entity_type() const { return "Player entity"; }
 }

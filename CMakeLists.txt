@@ -11,6 +11,8 @@ add_executable(text_based_game
         enemy.h
         level.cpp
         level.h
-        Game.cpp
-        Game.h
+        game.cpp
+        game.h
+        entity.cpp
+        entity.h
 )
